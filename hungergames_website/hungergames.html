@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Title displayed on tab. -->
+		<title>Hunger Games</title>
+		<!-- link to stylesheet and fonts used -->
+		<link href="https://fonts.googleapis.com/css?family=Mukta+Mahee" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="hungergamesstyle.css" />
+
+
+	</head>
+	<!-- Background of webpage set to black -->
+	<body bgcolor="black">
+<!-- main div to contain the whole page -->
+	<div class= 'main-container'>
+<!-- div to contain the animated gif header -->
+			<div class="title-container">
+				<img id="hungergamestitle"
+				src="title.gif" alt="Title!" height="60%" >
+
+			</div>
+<!-- div to contain the navigation buttons -->
+			<div class="button-container">
+					<img id="watchtitle"
+					src="watch.jpg" alt="Watch the Movie!" height="20%">
+					<img id="castcrewtitle"
+					src="castandcrew.jpg" alt="Meet us!" height="20%">
+					<img id="abouttitle"
+					src="about.jpg" alt="How it began" height="20%">
+					<!-- decoration image -->
+					<img id="shantanudrawing"
+					src="shantanu.jpg" alt="Sad protagonist" height="350px">
+					
+			</div>
+
+<!-- div to contain the vidwo iframe. Target id is added to be used in linking to this point on the page. -->
+			<div id="watchtarget" class= "video-container">
+				<!-- width of the video is the width of the main container -->
+				<iframe width="100%" height="500px" src="https://www.youtube.com/embed/tmff-hXBf7E?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+<!-- div to contain the about section. Target id is added to be used in linking to this point on the page. -->
+			<div id="abouttarget" class="about-container">
+				<!-- title image -->
+				<img id="aboutheader"
+				src="about30mff.jpg" alt="About" height="20%">
+				<!-- div to contain the description. Some text is in bold. -->
+				<div id="Text" class= "text-container">
+				<p>The 30 Minute Film Festival happens at Comm Lab! (The only class <b>crazy enough</b> to give such an assignment.) is it even possible to make a film in 30 Minutes???? Well we <b>did</b>. Somehow...</p>
+				</div>
+			</div>
+<!-- div to contain the cast and crew information -->
+			<div id="castcrewtarget" class="castcrew-container">
+				<!-- title image -->
+				<img id="castcrewheader"
+				src="castcrew.jpg" alt="Cast/Crew" height="20%">
+				<!-- creating cards for each of the cast/crew members. cards include an avatar image/ first name(h1)/ role(p) -->
+				<div class="card">
+					<!-- image has its own div in order to apply animation. This is the same for all avatars -->
+					<div class="shenukaavatar">
+  					<img src="shenuka-avatar.jpg" alt="Avatar" style="width:70%">
+  					</div>
+ 		 			<div class="names-container">
+    				<h1>Shenuka</h1>
+    				<p>Casting</p> 
+  					</div>
+				</div>
+				<div class="card">
+					<div class="vizavatar">
+  					<img src="viz-avatar.jpg" alt="Avatar" style="width:70%">
+  					</div>
+	 		 		<div class="names-container">
+	    			<h1>Viz</h1>
+	    			<p>Music/Actor</p> 
+	  				</div>
+				</div>
+				<div class="card">
+					<div class="alexavatar">
+  					<img src="alex-avatar.jpg" alt="Avatar" style="width:70%">
+  					</div>
+	 		 		<div class="names-container">
+	    			<h1>Alex</h1>
+	    			<p>Camera/Direction</p> 
+	  				</div>
+				</div>
+				<div class="card">
+					<div class="russellavatar">
+  					<img src="russell-avatar.jpg" alt="Avatar" style="width:70%">
+  					</div>
+	 		 		<div class="names-container">
+	    			<h1>Russell</h1>
+	    			<p>Script</p> 
+	  				</div>
+				</div>
+				<div class="card">
+					<div class="shantanuavatar">
+  					<img src="shantanu-avatar.jpg" alt="Avatar" style="width:70%">
+  					</div>
+	 		 		<div class="names-container">
+	    			<h1>Shantanu</h1>
+	    			<p>Lead Actor</p> 
+	  				</div>
+				</div>
+<!-- div to contain text that links back to the top of the page -->
+				<div id="backtotop">
+					<p>back to the top</p>
+				</div>
+				
+			</div>
+
+		</div>
+		<!-- link to the jquery library -->
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<!-- link to the javascript file -->
+		<script src="hungergamesscripts.js"></script>
+
+
+	</body>
+</html>

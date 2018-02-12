@@ -6,7 +6,7 @@ body{
 .header-container{
 	font-family: 'Work Sans', sans-serif;	
 	text-align:center;
-	font-size:40px;
+	font-size:50px;
 	margin:20px;
 	color:white;
 }
@@ -29,8 +29,9 @@ button{
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
-    margin:0px auto;
+    margin:10px auto;
 }
 iframe{
 	display:block;
+	margin: 20px;
 }
